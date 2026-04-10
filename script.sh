@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-echo "=== Xray Installer ==="
+echo "=== Vless through Nginx script ==="
 
 # ======================
 # INPUT
