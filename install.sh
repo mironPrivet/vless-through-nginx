@@ -59,7 +59,7 @@ echo "Ждём запуска remnanode..."
 until docker exec remnanode xray version > /dev/null 2>&1; do
   sleep 2
 done
-echo "remnanode готов."
+echo "Remnanode готова."
 
 # ======================
 # CERTS
