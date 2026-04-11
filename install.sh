@@ -29,7 +29,7 @@ apt install -y nginx-full certbot curl openssl jq
 
 systemctl stop nginx || true
 
-sudo curl -fsSL https://get.docker.com | sh
+curl -fsSL https://get.docker.com | sh
 mkdir /opt/remnanode && cd /opt/remnanode
 cat <<EOF > /opt/remnanode/docker-compose.yml
 services:
