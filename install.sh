@@ -354,7 +354,7 @@ add_inbound '{
         "sockopt": { "acceptProxyProtocol": true },
         "security": "reality",
         "realitySettings": {
-          "show": false, "xver": 1, "target": "6000", "spiderX": "",
+          "show": false, "xver": 0, "target": "6000", "spiderX": "",
           "serverNames": ["'"${TCP_REALITY}"'"],
           "privateKey": "'"${TCP_PRIV}"'",
           "shortIds": ["'"${TCP_SID}"'"]
@@ -377,7 +377,7 @@ add_inbound '{
         "sockopt": { "acceptProxyProtocol": true },
         "security": "reality",
         "realitySettings": {
-          "show": false, "xver": 1, "target": "6001", "spiderX": "",
+          "show": false, "xver": 0, "target": "6001", "spiderX": "",
           "serverNames": ["'"${GRPC_REALITY}"'"],
           "privateKey": "'"${GRPC_PRIV}"'",
           "shortIds": ["'"${GRPC_SID}"'"]
@@ -409,7 +409,7 @@ add_inbound '{
           }
         },
         "realitySettings": {
-          "show": false, "xver": 1, "target": "6002", "spiderX": "",
+          "show": false, "xver": 0, "target": "6002", "spiderX": "",
           "serverNames": ["'"${XHTTP_REALITY}"'"],
           "privateKey": "'"${XHTTP_PRIV}"'",
           "shortIds": ["'"${XHTTP_SID}"'"]
