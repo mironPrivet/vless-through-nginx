@@ -1,6 +1,9 @@
 #!/bin/bash
 set -e
 
+echo "Скрипт запущен" >> script.log
+date >> script.log
+
 echo "=== Vless-through-Nginx Installer ==="
 
 echo "ВНИМАНИЕ: Этот скрипт установит Nginx в вашу систему, а если он уже был установлен — перезапишет конфигурации!"
