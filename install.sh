@@ -1,8 +1,6 @@
 #!/bin/bash
 set -e
 
-echo "Скрипт запущен" >> script.log
-date >> script.log
 
 echo "=== Vless-through-Nginx Installer ==="
 
